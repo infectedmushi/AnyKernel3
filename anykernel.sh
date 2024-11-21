@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Sultan Kernel for the Pixel 8/Pro Patch With KernelSU
+kernel.string=Sultan Kernel for the Pixel 8/Pro With KernelSU
 do.devicecheck=1
 do.modules=0
 do.systemless=1
