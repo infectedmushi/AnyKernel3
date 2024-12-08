@@ -34,6 +34,7 @@ no_magisk_check=1
 
 kernel_version=$(cat /proc/version | awk -F '-' '{print $1}' | awk '{print $3}')
 case $kernel_version in
+    4.1*) ksu_supported=true ;;
     5.1*) ksu_supported=true ;;
     6.1*) ksu_supported=true ;;
     *) ksu_supported=false ;;
