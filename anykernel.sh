@@ -4,15 +4,17 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Sultan Kernel for the Pixel 8/Pro With KernelSU
+kernel.string=Sultan Kernel for the Pixel 7/Pro and 7a
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=husky
-device.name2=shiba
+device.name1=cheetah
+device.name2=panther
+device.name3=lynx
 supported.versions=15
+supported.patchlevels=2024-12 - 2025-02
 '; } # end properties
 
 # boot image installation
@@ -28,3 +30,6 @@ is_slot_device=1;
 reset_ak;
 split_boot;
 flash_boot;
+
+# dtbo installation
+flash_generic dtbo;
