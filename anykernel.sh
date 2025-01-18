@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=KernelSU With SUSFS by TheWildJames
+kernel.string=KernelSU With SUSFS by deepongi
 do.devicecheck=0
 do.modules=0
 do.systemless=0
